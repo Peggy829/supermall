@@ -3,7 +3,8 @@ import axios from 'axios'
 export function request(config) {
     // 1.创建axios实例
     const instance = axios.create({
-            baseURL: "http://152.136.185.210:8000",
+            //本接口为虚拟接口，真实接口请与王红元老师联系（coderwhy002）
+            baseURL: "127.192.168.1",
             timeout: 5000
         })
         // 2.axios拦截器
